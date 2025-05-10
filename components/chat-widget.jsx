@@ -14,7 +14,7 @@ export function ChatWidget() {
       {!isOpen && (
         <button
           onClick={toggleChat}
-          className="w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-600 transition-all duration-300 animate-bobble"
+          className="w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center  hover:bg-blue-600 transition-all duration-300 animate-bobble"
           aria-label="Open chat"
         >
           <svg

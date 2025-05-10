@@ -39,7 +39,7 @@ export function ChatDemo({ onClose }) {
   return (
     <div
       className={cn(
-        "flex flex-col h-[400px] w-[350px] rounded-lg shadow-xl bg-white border border-gray-200"
+        "flex flex-col h-[450px] w-[400px] rounded-lg  bg-white border border-gray-200"
       )}
     >
       {/* Header */}
@@ -83,9 +83,9 @@ export function ChatDemo({ onClose }) {
         append={append}
         setMessages={setMessages}
         suggestions={[
-          "What is the weather in San Francisco?",
-          "Solve: If x² + 6x + 9 = 25, what is x?",
-          "Find the longest palindrome in a string.",
+          "Solve: x² + 6x + 9 = 25",
+          "Generate a React button",
+          "Tell a short joke",
         ]}
       />
     </div>
