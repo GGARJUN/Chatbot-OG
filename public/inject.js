@@ -19,7 +19,7 @@
   
     // Create iframe (but don't append yet)
     const iframe = document.createElement("iframe");
-    iframe.src = "https://yourdomain.com/widget "; // Change this to your deployed URL
+    iframe.src = "https://widget-chatbot-two.vercel.app "; // Change this to your deployed URL
     iframe.id = "chatbot-iframe";
     iframe.style.position = "fixed";
     iframe.style.bottom = "90px";
