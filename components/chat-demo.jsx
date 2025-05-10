@@ -39,7 +39,7 @@ export function ChatDemo({ onClose }) {
   return (
     <div
       className={cn(
-        "flex flex-col h-[450px] w-[400px] rounded-lg  border border-gray-200"
+        "flex flex-col h-[450px] w-[400px] rounded-lg bg-white border border-gray-200"
       )}
     >
       {/* Header */}
