@@ -14,7 +14,7 @@
   iframe.style.zIndex = "999999";
   iframe.style.borderRadius = "12px";
   iframe.style.backgroundColor = "transparent"; // 👈 Set transparent background
-  iframe.style.pointerEvents = 'none';
+  iframe.allowTransparency = true; // 👈 For legacy browser support
 
   document.body.appendChild(iframe);
 })();
