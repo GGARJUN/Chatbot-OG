@@ -1,11 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
   async headers() {
     return [
       {
-        source: "/widget:path*",
+        source: "/widget",
         headers: [
           {
             key: "X-Frame-Options",
@@ -13,7 +10,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: "Content-Security-Policy",
-            value: "frame-ancestors 'self' *",
+            value: "frame-ancestors 'self' *;",
           },
         ],
       },
