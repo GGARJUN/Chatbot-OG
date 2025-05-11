@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: "/widget",
+        source: "/widget:path*",
         headers: [
           {
             key: "X-Frame-Options",
